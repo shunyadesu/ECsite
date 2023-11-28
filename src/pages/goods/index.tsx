@@ -1,8 +1,14 @@
-import { Button, ButtonGroup, Card, CardBody, CardFooter, Center, Divider, Heading, Stack, VStack, Image, Text, Flex, Grid, GridItem } from '@chakra-ui/react'
+import { Button, ButtonGroup, Card, CardBody, CardFooter, Center, Divider, Heading, Stack, VStack, Image, Text, Flex, Grid, GridItem, Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <>
+    <Tabs align='end' variant='enclosed'>
+      <TabList>
+        <Tab>One</Tab>
+        <Tab>Two</Tab>
+      </TabList>
+    </Tabs>
       <Center mt={"100px"}>aaaaaaaaaaaaaaa</Center>
     <Grid templateColumns="repeat(4, 1fr)" gap={3} pl = "5%" pt = "5%"> 
     <Card maxW='sm'>

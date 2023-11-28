@@ -29,7 +29,6 @@ const Home: NextPage<IndexProps> = ({ data }) => {
         />
 
 
-
         <Image
           borderRadius='full'
           boxSize='150px'
